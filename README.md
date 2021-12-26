@@ -8,10 +8,7 @@ A small script written in Python3 that generates a visual representation of the 
 ### Abstract
 The colors in the output image are in HSV format. The darker pixels represent those areas where the least recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
 <p align="center"><img width="270" height="31" src="https://user-images.githubusercontent.com/64155209/147411256-fd0ec010-f76f-4887-9fc8-140e588aca20.png"></p>
-..where 
-```
-c
-```
+...where c is a constant complex number.
 
 ## Dependencies
 - [Pillow](https://pypi.org/project/Pillow/) </br>
