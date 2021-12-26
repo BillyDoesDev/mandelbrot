@@ -7,7 +7,7 @@ A small script written in Python3 that generates a viaual representation of the 
 
 ### Abstract
 The colors in the output image are in HSV format. The darker pixels represent those areas where the reast recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
-<img src="https://latex.codecogs.com/svg.image?z_{n&plus;1}=(z_{n})^{2}&plus;c,&space;z_{0}=0" title="z_{n+1}=(z_{n})^{2}+c, z_{0}=0" />
+<img src="https://latex.codecogs.com/svg.image?\bg_black&space;z_{n&plus;1}=(z_{n})^{2}&plus;c,&space;z_{0}=0" title="\bg_black z_{n+1}=(z_{n})^{2}+c, z_{0}=0" />
 
 ## Dependencies
 - [Pillow](https://pypi.org/project/Pillow/) </br>
