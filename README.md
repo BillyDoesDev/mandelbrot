@@ -1,5 +1,5 @@
 # Mandelbrot Set Generator 
-A small script written in Python3 that generates a viaual representation of the Mandelbrot set.
+A small script written in Python3 that generates a visual representation of the Mandelbrot set.
 
 <p align="center">
     <img width="640" height="360" src="./sample.png" alt="Mandlebrot set">
