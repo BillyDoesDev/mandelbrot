@@ -6,7 +6,10 @@ A small script written in Python3 that generates a viaual representation of the 
 </p>
 
 ### Abstract
-The colors in the output image are in HSV format. The darker pixels represent those areas where the reast recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course: $$`z_{n+1}=(z_{n})^{2}+c, z_{0}=0`$$
+The colors in the output image are in HSV format. The darker pixels represent those areas where the reast recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
+```math
+z_{n+1}=(z_{n})^{2}+c, z_{0}=0
+```
 
 ## Dependencies
 - [Pillow](https://pypi.org/project/Pillow/) </br>
