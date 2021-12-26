@@ -6,7 +6,7 @@ A small script written in Python3 that generates a viaual representation of the 
 </p>
 
 ### Abstract
-The colors in the output image are in HSV format. The darker pixels represent those areas where the reast recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
+The colors in the output image are in HSV format. The darker pixels represent those areas where the least recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
 <p align="center">
     <img width="270" height="31" src="https://user-images.githubusercontent.com/64155209/147411256-fd0ec010-f76f-4887-9fc8-140e588aca20.png">
 </p>
@@ -38,7 +38,7 @@ Further, you may change the recursion depth in [mandlebrot.py](https://github.co
 ```python
 MAX_ITER = 1e2
 ```
-The darker pixels represent those areas where the reast recursion was made.
+The darker pixels represent those areas where the least recursion was made.
 In the code snipplet below, `color` represents the brightness. You may obviously change the HSV values as you want in [main.py](https://github.com/DarkKnight450/mandelbrot/blob/main/main.py#L43)
 ```python
 draw.point(
