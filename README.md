@@ -10,8 +10,7 @@ The colors in the output image are in HSV format. The darker pixels represent th
 <p align="center">
     <img width="270" height="31" src="https://user-images.githubusercontent.com/64155209/147411256-fd0ec010-f76f-4887-9fc8-140e588aca20.png">
 </p>
-</br>
-...where **c** is a constant cpmplex number. 
+where `c` is a constant cpmplex number. 
 
 ## Dependencies
 - [Pillow](https://pypi.org/project/Pillow/) </br>
