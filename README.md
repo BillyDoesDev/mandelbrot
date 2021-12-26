@@ -25,18 +25,18 @@ python main.py
 The image will be saved in the current working directory as `output.png`
 
 ## Customizing output
-You may change the resolution of the output image by changing its height and width in (main.py)[https://github.com/DarkKnight450/mandelbrot/blob/main/main.py#L6]
+You may change the resolution of the output image by changing its height and width in [main.py](https://github.com/DarkKnight450/mandelbrot/blob/main/main.py#L6)
 ```python
 # Image size (pixels)
 WIDTH = 3840
 HEIGHT = 2160
 ```
-Further, you may change the recursion depth in (mandlebrot.py)[https://github.com/DarkKnight450/mandelbrot/blob/main/mandelbrot.py#L3]
+Further, you may change the recursion depth in [mandlebrot.py](https://github.com/DarkKnight450/mandelbrot/blob/main/mandelbrot.py#L3)
 ```python
 MAX_ITER = 1e2
 ```
 The darker pixels represent those areas where the reast recursion was made.
-In the code snipplet below, `color` represents the brightness. You may obviously change the HSV values as you want in (main.py)[https://github.com/DarkKnight450/mandelbrot/blob/main/main.py#L43] 
+In the code snipplet below, `color` represents the brightness. You may obviously change the HSV values as you want in [main.py](https://github.com/DarkKnight450/mandelbrot/blob/main/main.py#L43)
 ```python
 draw.point(
     [x, y],
