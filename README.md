@@ -44,7 +44,7 @@ draw.point(
     [x, y],
     tuple(
         round(i * 255)
-        for i in colorsys.hsv_to_rgb(<hue> / <saturation>, 100 / 100, color / 100)
+        for i in colorsys.hsv_to_rgb(<hue> / 360, <saturation> / 100, color / 100)
     ),
 )
 ```
