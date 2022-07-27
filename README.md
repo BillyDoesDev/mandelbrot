@@ -7,7 +7,7 @@ A small script written in Python3 that generates a visual representation of the 
 
 ### Abstract
 The colors in the output image are in HSV format. The darker pixels represent those areas where the least recursion was made (basically those parts which do not belong in the set), and vice-versa. The algorithm used is, of course:
-$$ z_{n+1} = (z_n)^2 + c, z_0 = 0 $$
+$$z_{n+1} = (z_n)^2 + c, z_0 = 0$$
 ...where $c$ is a constant complex number.
 
 ## Dependencies
